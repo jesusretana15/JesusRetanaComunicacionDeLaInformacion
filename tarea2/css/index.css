@@ -1,0 +1,273 @@
+body, html{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: 'League Spartan', sans-serif;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  border: 0;
+}
+/* NAVBAR */
+
+/* Icon 1 */
+
+/* estilo para logo de nav */
+
+ .navbar{
+  background-color:rgb(185, 177, 146);
+ }
+
+.imglogo{
+  height: 50px;
+  width: 90px;
+   
+}
+ 
+
+.nav-link{
+color: #000000;
+margin-left: 30px;
+margin-right: 30px;
+font-size: x-large;
+}
+
+
+/* banner parallax  */
+
+.bannerparallax {
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-attachment: fixed;
+  background-size: cover;
+  /*control altura del banner*/
+  height: calc(100vh);
+  background-position: center;
+  background-image: url('../imagenes/banner-tacos.jpg'),linear-gradient(rgba(244, 244, 220, 0.7), rgba(0, 0, 0, 0.294));
+  background-blend-mode: screen;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
+
+}
+
+.bannerlogologo{
+  height: 150px;
+}
+
+#bannerlogo{
+height: 90%;
+}
+
+
+.bannerparallax h1 {
+  font-size: 200px;
+}
+
+.bannertxt{
+  color: rgb(237, 238, 233);
+  font-size: 30px;
+}
+
+.gradient-wave{
+position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 100px;
+      background: linear-gradient(to bottom, transparent, rgba(255, 255, 255, 0.996));
+}
+
+
+/* ubicaciones */
+
+.card-text {
+font-size: 20px;
+}
+
+.card-body h6{
+font-size: 25px;
+}
+
+.linkMapa {
+text-decoration: underline;
+}
+
+.linkComoLlegar{
+  color: black;
+  text-decoration: none;
+  font-size: larger;
+}
+
+
+
+.card-img-top{
+height: 500px;
+width: 100%;
+
+object-fit: cover
+}
+
+
+                            /* CSS */
+                            .button-74 {
+                              background-color: #fcfcfc;
+                              border: 2px solid #422800;
+                              border-radius: 30px;
+                              box-shadow: #422800 4px 4px 0 0;
+                              color: #422800;
+                              cursor: pointer;
+                              display: inline-block;
+                              font-weight: 600;
+                              font-size: 18px;
+                              padding: 0 18px;
+                              line-height: 50px;
+                              text-align: center;
+                              text-decoration: none;
+                              user-select: none;
+                              -webkit-user-select: none;
+                              touch-action: manipulation;
+                            }
+                            
+                            .button-74:hover {
+                              background-color: #fff;
+                            }
+                            
+                            .button-74:active {
+                              box-shadow: #422800 2px 2px 0 0;
+                              transform: translate(2px, 2px);
+                            }
+                            
+                            @media (min-width: 768px) {
+                              .button-74 {
+                                min-width: 120px;
+                                padding: 0 25px;
+                              }
+                            }
+
+.card-title {
+font-size: 30px;
+}
+
+#Promociones{
+margin: 0;
+}
+
+/* menu */
+#menu{
+display: flex;
+align-items: center;
+}
+
+.menu-tittle{
+font-size: 50px;
+}
+.menu-text{
+font-size: 25px;
+font-weight: 300;
+}
+
+
+.img-menu {
+height: 30px;
+}
+
+.menu-container{
+padding-top: 100px;
+}
+
+.rest-tittle{
+font-size: 35px;
+
+}
+
+
+.tacosimg{
+width: 100%;
+object-fit: cover;
+}
+
+.tacocontact{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+/* button  */
+
+
+/* CSS */
+.button-84 , .btn-contacto {
+align-items: center;
+background-color: initial;
+background-image: linear-gradient(#464d55, #25292e);
+border-radius: 8px;
+border-width: 0;
+box-shadow: 0 10px 20px rgba(0, 0, 0, .1),0 3px 6px rgba(0, 0, 0, .05);
+box-sizing: border-box;
+color: #fff;
+cursor: pointer;
+display: inline-flex;
+flex-direction: column;
+font-family: expo-brand-demi,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+font-size: 18px;
+height: 52px;
+justify-content: center;
+line-height: 1;
+margin: 0;
+outline: none;
+overflow: hidden;
+padding: 0 32px;
+text-align: center;
+text-decoration: none;
+transform: translate3d(0, 0, 0);
+transition: all 150ms;
+vertical-align: baseline;
+white-space: nowrap;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+}
+
+.button-84:hover {
+box-shadow: rgba(0, 1, 0, .2) 0 2px 8px;
+opacity: .85;
+}
+
+.button-84:active {
+outline: 0;
+}
+
+.button-84:focus {
+box-shadow: rgba(0, 0, 0, .5) 0 0 0 3px;
+}
+
+
+
+
+/* footer */
+footer{
+  margin-top: 100px;
+  background-color: rgb(255, 255, 255);
+  color:#000000;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+
+footer i{
+  color:#000000;
+  font-size: 30px;
+  margin: 5%;
+}
+
+footer p{
+  color:#000000;
+  font-size: 20px;
+
+}
+
+.hidden{
+  opacity: 0;
+}
