@@ -1,0 +1,15 @@
+
+/* For most smartphones in portrait and landscape */
+@media only screen and (max-width: 768px) {
+    /* Styles for devices with a max width of 768px */
+    
+}
+
+/* For most smartphones in portrait mode */
+@media only screen and (max-width: 480px) {
+    /* Styles for devices with a max width of 480px */
+    .mcLogoSvg{
+        height: 30%;
+        z-index: 1;
+    }
+}
