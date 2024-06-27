@@ -55,3 +55,49 @@ body, html {
     height: 30px;
     color: white;
 }
+
+.menu-container{
+    position: relative;
+    display: flex;
+    height: 92vh;
+}
+
+.col-4{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 10%;
+}
+
+.menu-title{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: rgba(0, 0, 0, 0.731);
+    
+}
+
+.menu-title h2{
+    font-weight:800;
+    font-size: 25px;
+}
+
+
+.anchor-link{
+    color: rgba(0, 0, 0, 0.731);
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.anchor-link:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+    color: rgba(0, 0, 0, 0.731);
+    text-decoration: none;
+     
+}
+
+.banner-link:hover{
+    text-decoration: none;
+}

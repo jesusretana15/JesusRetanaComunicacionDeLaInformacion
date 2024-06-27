@@ -6,13 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menú</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/DrawSVGPlugin.min.js"></script>
-    <link href="path/to/bootstrap.min.css" rel="stylesheet">
     <link rel="shortcut icon" href="./images/mcfavicon.svg" type="image/x-icon">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/queries.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
@@ -26,9 +25,9 @@
 
         </div>
 
-        <svg id="mcLogoSvg" class="mcLogoSvg" xmlns="http://www.w3.org/2000/svg" width="2500" height="2139"
-            fill-rule="evenodd" clip-rule="evenodd" image-rendering="optimizeQuality"
-            shape-rendering="geometricPrecision" text-rendering="geometricPrecision" viewBox="0 0 48.157 41.194">
+        <svg class="mcLogoSvg" xmlns="http://www.w3.org/2000/svg" width="2500" height="2139" fill-rule="evenodd"
+            clip-rule="evenodd" image-rendering="optimizeQuality" shape-rendering="geometricPrecision"
+            text-rendering="geometricPrecision" viewBox="0 0 48.157 41.194">
             <g fill="#f1bb00">
                 <path
                     d="M48.134 39.985c-.212-10.311-1.873-20.235-4.679-27.943C40.627 4.277 37.097 0 33.518 0c-2.224 0-4.313 1.618-6.212 4.812-1.176 1.981-2.272 4.582-3.225 7.643-.956-3.061-2.05-5.662-3.228-7.643C18.956 1.618 16.866 0 14.642 0c-3.582 0-7.11 4.277-9.937 12.042C1.9 19.75.238 29.674.026 39.984L0 41.194h7.187l.014-1.168c.279-21.542 5.41-35.205 7.5-35.205 1.408 0 5.006 9.461 5.552 32.885l.028 1.154h7.598l.027-1.154C28.451 14.282 32.05 4.82 33.458 4.82c2.091 0 7.22 13.663 7.5 35.205l.015 1.169h7.184z" />
@@ -44,35 +43,123 @@
         </svg>
 
         <div class="text-go-menu">
-            <p>Deslizar para conocer menú</p>
-            <svg class="svg-down" viewBox="0 -4.5 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink" fill="#FFFFFF">
-                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                <g id="SVGRepo_iconCarrier">
-                    <defs> </defs>
-                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                        <g id="Dribbble-Light-Preview" transform="translate(-220.000000, -6684.000000)" fill="#FFFFFF">
-                            <g id="icons" transform="translate(56.000000, 160.000000)">
-                                <path
-                                    d="M164.292308,6524.36583 L164.292308,6524.36583 C163.902564,6524.77071 163.902564,6525.42619 164.292308,6525.83004 L172.555873,6534.39267 C173.33636,6535.20244 174.602528,6535.20244 175.383014,6534.39267 L183.70754,6525.76791 C184.093286,6525.36716 184.098283,6524.71997 183.717533,6524.31405 C183.328789,6523.89985 182.68821,6523.89467 182.29347,6524.30266 L174.676479,6532.19636 C174.285736,6532.60124 173.653152,6532.60124 173.262409,6532.19636 L165.705379,6524.36583 C165.315635,6523.96094 164.683051,6523.96094 164.292308,6524.36583"
-                                    id="arrow_down-[#338]"> </path>
+            <a href="#MenuPage" class="text-center banner-link">
+                <p>Deslizar para conocer menú</p>
+                <svg class="svg-down" viewBox="0 -4.5 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" fill="#FFFFFF">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                        <defs> </defs>
+                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="Dribbble-Light-Preview" transform="translate(-220.000000, -6684.000000)"
+                                fill="#FFFFFF">
+                                <g id="icons" transform="translate(56.000000, 160.000000)">
+                                    <path
+                                        d="M164.292308,6524.36583 L164.292308,6524.36583 C163.902564,6524.77071 163.902564,6525.42619 164.292308,6525.83004 L172.555873,6534.39267 C173.33636,6535.20244 174.602528,6535.20244 175.383014,6534.39267 L183.70754,6525.76791 C184.093286,6525.36716 184.098283,6524.71997 183.717533,6524.31405 C183.328789,6523.89985 182.68821,6523.89467 182.29347,6524.30266 L174.676479,6532.19636 C174.285736,6532.60124 173.653152,6532.60124 173.262409,6532.19636 L165.705379,6524.36583 C165.315635,6523.96094 164.683051,6523.96094 164.292308,6524.36583"
+                                        id="arrow_down-[#338]"> </path>
+                                </g>
                             </g>
                         </g>
                     </g>
-                </g>
-            </svg>
+                </svg>
+            </a>
+
+        </div>
+    </section>
+
+    <section class="text-center" id="MenuPage">
+        <div class="menu-title">
+            <h2>Menú</h2>
+        </div>
+        <div class="container menu-container">
+
+            <div class="row ">
+                <div class="col-4 col-md-3">
+                    <a href="#" class="anchor-link">
+                        <img src="./images/DLV_FamilyBox2X_V1.png" alt="Family Box">
+                        <p>Family Box</p>
+                    </a>
+                </div>
+                <div class="col-4 col-md-3">
+                    <a href="#" class="anchor-link">
+                        <img src="./images/DLV_Signature2x_V1.png" alt="Signature">
+                        <p>Signature</p>
+                    </a>
+                </div>
+                <div class="col-4 col-md-3">
+                    <a href="#" class="anchor-link">
+                        <img src="./images/DLV_Cajitas2x_V1.png" alt="Signature">
+                        <p>Cajita Feliz</p>
+                    </a>
+                </div>
+                <div class="col-4 col-md-3">
+                    <a href="#" class="anchor-link">
+                        <img src="./images/DLV_Promociones2x_V1.png" alt="Promociones">
+                        <p>Promociones</p>
+                    </a>
+                </div>
+                <div class="col-4 col-md-3">
+                    <a href="#" class="anchor-link">
+                        <img src="./images/DLV_McCombos2x_V1.png" alt="McCombos">
+                        <p>McCombos</p>
+                    </a>
+                </div>
+                <div class="col-4 col-md-3">
+                    <a href="#" class="anchor-link">
+                        <img src="./images/DLV_Hamburguesas2x_V1.png" alt="Hamburguesas">
+                        <p>Hamburguesas</p>
+                    </a>
+                </div>
+                <div class="col-4 col-md-3">
+                    <a href="#" class="anchor-link">
+                        <img src="./images/DLV_McNuggetsyPollos2x_V1.png" alt="McNuggetsyPollo">
+                        <p>McNuggets y Pollo</p>
+                    </a>
+                </div>
+                <div class="col-4 col-md-3">
+                    <a href="#" class="anchor-link">
+                        <img src="./images/DLV_McMenu2x_V1.png" alt="McMenu">
+                        <p>McMenu</p>
+                    </a>
+                </div>
+                <div class="col-4 col-md-3">
+                    <a href="#" class="anchor-link">
+                        <img src="./images/DLV_Postres2x_V1.png" alt="Postres">
+                        <p>Postres</p>
+                    </a>
+                </div>
+                <div class="col-4 col-md-3">
+                    <a href="#" class="anchor-link">
+                        <img src="./images/DLV_ParaAcomp2x_V1.png" alt="Promociones">
+                        <p>Acompañamientos</p>
+                    </a>
+                </div>
+                <div class="col-4 col-md-3">
+                    <a href="#" class="anchor-link">
+                        <img src="./images/DLV_Ensaladas2x_V1.png" alt="Promociones">
+                        <p>Ensaladas</p>
+                    </a>
+
+                </div>
+                <div class="col-4 col-md-3">
+                    <a href="#" class="anchor-link">
+                        <img src="./images/DLV_Bebidas2x_V1.png" alt="Promociones">
+                        <p>Bebidas</p>
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
 
 
-    <Section>
-        <h3>asdas</h3>
-    </Section>
 
-
-
-    <script src="path/to/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="
+    https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js
+    "></script>
     <script src="./js/animations.js"></script>
 </body>
 
