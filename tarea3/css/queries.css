@@ -34,9 +34,34 @@
         height: 40px;
         color: white;
     }
+
     
 
 
+    .categoria-icon{
+      height: 170px;
+  }
+  
+  .categoria-text{
+      color: rgba(0, 0, 0, 0.731);
+      font-weight: 700;
+      font-size: 50px;
+  }
+
+
+  .number-menu{
+    font-size: 40px;
+    margin: 20px;
+  }
+
+  .name-menu{
+    font-size: 40px;
+    margin: 20px;
+  }
+
+  .photo-menu{
+    height: 150px;
+  }
   }
   
     

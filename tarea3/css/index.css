@@ -101,3 +101,25 @@ body, html {
 .banner-link:hover{
     text-decoration: none;
 }
+
+.red-bar{
+    width: 70%;
+}
+
+.yellow-bar{
+    width: 90%;
+}
+
+.categoria-icon{
+    height: 80px;
+}
+
+.categoria-text{
+    color: rgba(0, 0, 0, 0.731);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.menu-item{
+    display: flex;
+}
