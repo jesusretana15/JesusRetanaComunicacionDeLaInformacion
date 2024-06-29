@@ -122,4 +122,21 @@ body, html {
 
 .menu-item{
     display: flex;
+    align-items: center;
+    left: -400px;
+}
+
+.photo-menu{height: 100px;
+}
+
+
+.number-menu{
+    font-weight: 700;
+
+}
+
+.item-text-container{
+    display: flex;
+    align-items: self-start;
+    flex-direction: column;
 }

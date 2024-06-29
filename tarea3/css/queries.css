@@ -10,15 +10,15 @@
       }
       
     .anchor-link img {
-        height: 200px;
+        height: 100px;
     }
   
     .anchor-link p {
-      font-size: 30px;
+      font-size: 14px;
       margin-top: 10px;
     }
     .text-go-menu p{
-        font-size: 40px;
+        font-size: 20px;
         color: white;
     }
 
@@ -27,11 +27,11 @@
         margin-top: 50px;
         margin-bottom: 50px;
         font-weight:800;
-        font-size: 45px;
+        font-size: 25px;
     }
     
     .svg-down{
-        height: 40px;
+        height: 20px;
         color: white;
     }
 
@@ -39,29 +39,44 @@
 
 
     .categoria-icon{
-      height: 170px;
+      height: 100px;
   }
   
   .categoria-text{
       color: rgba(0, 0, 0, 0.731);
       font-weight: 700;
-      font-size: 50px;
+      font-size: 25px;
   }
 
 
   .number-menu{
-    font-size: 40px;
+    font-size: 20px;
     margin: 20px;
   }
 
   .name-menu{
-    font-size: 40px;
+    font-size: 20px;
     margin: 20px;
   }
 
   .photo-menu{
     height: 150px;
   }
+
+
+.price-menu{
+  font-size: 17px;
+  padding-left: 15px;
+}
+
+.menu-item{
+  display: flex;
+  align-items: center;
+  left: -5000px;
+}
+
+
+
   }
   
     
