@@ -165,4 +165,16 @@ body, html {
     opacity: 70%;
     display: none;
 }
- 
+
+.footer{
+    height: 100px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    background-color:#F50E02;
+    overflow: hidden;
+}
+
+.footer p{
+   color: white;  
+}
