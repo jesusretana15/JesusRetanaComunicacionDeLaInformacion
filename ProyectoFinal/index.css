@@ -1,0 +1,455 @@
+body{
+    font-family: "Istok Web", sans-serif;
+    background-color: #2B2B2B;
+    color: #DBCEBF;
+    padding: 0;
+    margin: 0;
+    min-height: calc(100vh - 4rem);
+    
+}
+
+
+.navbar{
+    background-color:#1A1A1A ; 
+    height: 4rem;
+}
+
+.nav-link{
+    color: rgba(255, 255, 255, 0.81);
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    color: #DBCEBF;
+    text-decoration: underline;
+}
+
+.navbar-nav {
+    position: relative;
+    right: 1rem;
+}
+.navbar-brand{
+    position: relative;
+    left: 1rem;
+}
+
+.navbar-toggler {
+    border-color:rgba(255, 255, 255, 0.81);  
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.81)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); 
+}
+
+.section-oferta{
+display: flex;
+align-items: center;
+}
+
+.oferta{   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.oferta h2{
+    font-weight: bold;
+}
+
+.oferta-element{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: #262525ab;
+    width: 100%;
+    height: 6.25rem;
+}
+
+.number-oferta{
+    height: 6.25rem;
+    width: 13rem;
+    background-color:#1A1A1A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.equipo{
+    padding-top: 3.125rem;
+    padding-left: 3.125rem;
+    padding-right: 3.125rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Artistas-Text{
+    text-align: center;
+    padding-left: 3.125rem;
+    padding-right: 3.125rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Artistas-Cards{
+    padding-left: 3.125rem;
+    padding-right: 3.125rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Artistas-Text h2{
+    font-weight: bold;
+    font-size: 10px;
+}
+
+footer {
+    background-color:#1A1A1A ; 
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 4rem;
+     
+
+}
+
+footer img {
+
+   padding: .5rem;
+}
+
+
+.hero-section{
+    background-image: url("./images/hero-img.webp");
+    background-size:100%;
+    background-position-y:100% ;
+    position: relative;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    z-index: -1; 
+    height: 94vh;
+    width: 100%;
+}
+
+.imgLogoHero{
+    
+    position: relative;
+    top: 5rem;
+    height: 8rem;
+}
+
+.card-team{
+    display: flex;
+    height: 25rem;
+    width: 18rem;
+    background-color: #1A1A1A;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.card-team:hover{
+    background-color: #1f1f1f;
+}
+
+h3{
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: #DBCEBF;
+}
+a:hover{
+    text-decoration: underline;
+    color: #8c6031;
+
+}
+
+.testimonial-card {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    width: 40.375rem;
+    height: 20.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .testimonial-card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+
+  .testimonial-rating {
+    color:#DBCEBF;
+
+
+  }
+
+  .image-container{
+    display: flex;
+    justify-content: center;
+  }
+
+  .testimonial-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .testimonial-card{
+    gap: 1rem;
+  }
+
+  .testimonial-container .testimonial-wrapper {
+    display: inline-block;
+    width: calc(100% - 20px);  
+    margin: 10px;
+    vertical-align: top;
+  }
+
+  .Servicios-Text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .sectionTittle{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Servicios-Cards h3{
+    font-size: 20px;
+}
+
+.Servicios-Cards p{
+    padding: 15px;
+}
+
+.card-serv{
+    padding: 2rem;
+}
+
+.card-serv img{
+    height: 250px;
+}
+
+
+
+
+
+
+.accordion-body{
+    background-color:  #1A1A1A;
+    color: #DBCEBF;  
+}
+
+.accordion-header button{
+    background-color:  #1A1A1A;
+    color: #DBCEBF;  
+    
+}
+
+.accordion{
+    z-index: -1;
+}
+
+.btnForm{
+    color: #DBCEBF;
+    border-color:#DBCEBF;
+    background-color: #1A1A1A;
+}
+
+.btnForm:hover{
+    background-color: #222222;
+    border-color:#DBCEBF;
+}
+
+.form-inp{
+    border-color:#DBCEBF;
+    background-color: #1A1A1A;
+    width: 500px;
+   
+}
+
+input[type="date"],
+input[type="time"] {
+    color: #f0e4d946;   
+    border-color:#DBCEBF;
+    background-color: #1A1A1A;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator,
+input[type="time"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
+.form-inp::placeholder {
+    color: #f0e4d946;   
+  }
+
+.card-blog {
+   
+    background-color:#1A1A1A;
+    height: 470px;
+    width: 350px;
+
+}
+
+
+.card-img-top{
+    height: 250px;
+}
+
+.card-text-blog{
+    color:#DBCEBF;
+}
+.text-muted-blog{
+    color:#dbcebf44;
+}
+
+.card-title{
+    color: #8c6031;
+}
+
+.blog{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+@media (max-width: 575px) {
+    .hero-section{
+        height: 95vh;
+    }
+
+    .imgLogoHero{
+        position: relative;
+        top: 8.5rem;
+        height: 8rem;
+    }
+
+    .hero-section{
+        background-size: cover;
+        background-position-x:60% ;
+        position: relative;
+        
+    }
+
+    .navbar-toggler{
+        position: relative;
+        right: 1rem;
+    }
+
+    .nav-link{
+        height: 3rem;
+        position: relative;
+        left: 2rem;
+    }
+
+    .navbar-collapse{
+        background-color:  #1A1A1A;
+       }
+
+    .oferta-element{   
+        font-size: .875rem;
+        height: 130px;
+    }
+
+    .number-oferta{
+        height: 130px;
+    }
+
+    .card-team{
+        height: 23rem;
+        width: 15rem;
+    }
+
+    .testimonial-card{
+        width: 300px;
+        height: 300px;
+        text-wrap:wrap;
+        gap: 10px;
+    }
+
+    .sectionTittle{
+        font-size: 1.5rem;}
+
+    
+        .card-serv{
+            height: 400px;
+            width: 300px;
+        }
+        
+        .maps{
+            margin-top: 10px;
+             
+            height: 500px;
+        }    
+        .form-inp{
+            border-color:#DBCEBF;
+            width: 250px;
+        }
+
+        .single-section{
+            min-height: calc(100vh - 120px);
+            
+        }
+}
+
+
+@media (min-width: 	1650px ) {
+    .Artistas-Cards{
+        margin-top: 100px;
+    }
+
+    .maps{
+        margin-top: 80px;
+        width: 1600px;
+        height: 550px;
+     }
+}
+
+@media (min-width: 1080px) {
+    .single-section{
+
+        height: calc(100vh  -  8rem);
+     }
+
+    .maps{
+        margin-top: 60px;
+        width: 1300px;
+        height: 350px;
+     }
+
+     .accordion{
+        margin-top: 60px;
+     }
+ 
+    
+}
